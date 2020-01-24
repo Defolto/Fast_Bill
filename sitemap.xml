@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+    <loc>http://xn--90ail1aecee7b8ad.xn--p1ai/index.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>http://xn--90ail1aecee7b8ad.xn--p1ai/acc_services/index.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>http://xn--90ail1aecee7b8ad.xn--p1ai/check/index.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>http://xn--90ail1aecee7b8ad.xn--p1ai/nal/index.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>http://xn--90ail1aecee7b8ad.xn--p1ai/personal/index.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+</url>
+<url>
+    <loc>http://xn--90ail1aecee7b8ad.xn--p1ai/contact/index.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.2</priority>
+</url>
+</urlset>

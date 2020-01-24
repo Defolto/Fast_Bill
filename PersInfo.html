@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>БыстрыйСчёт.рф</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="acc_services/main.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+</head>
+<body>
+    <div class="bag">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" style="padding: 30px;">
+        <a class="navbar-brand text-center" href="index.html"><span class="font-weight-bold h2" style="color: #90A6E8">быстрый</span><span class="font-weight-bold h2" style="color: #EDCC26">счёт</span><span class="h2 font-weight-normal">.рф</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <form action="mail.php" method="POST">
+                    <legend style="color: #666666">Заполните следующие поля</legend>
+        
+                    <div class="form-group">
+                      <label for="">Введите ваше имя</label>
+                      <input type="text" class="form-control" id="" name="user_name" placeholder="Иван">
+                    </div>
+                  
+                    <div class="form-group">
+                      <label for="">Введите номер телефона</label>
+                      <input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 99 99 999">
+                    </div>
+                  
+                    <div class="form-group">
+                      <label for="">Введите email</label>
+                      <input type="text" class="form-control" id="" name="user_email" placeholder="mail@mail.ru">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="">Чем мы можем помочь?</label>
+                      <textarea class="form-control" id="" name="user_text" placeholder="Нужен аутсоринг бухгалтерского учёта"></textarea>
+                    </div>
+
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Cолгасен на обработку персональных данных</label>
+                    </div>
+                    
+                    <button type="submit" id="check" class="btn btn-primary request">Отправить заявку</button>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse menu justify-content-end mr-0" id="navbarNav" style="margin-right: 50px;"> 
+          <ul class="navbar-nav text ">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link" data-toggle="modal" data-target="#exampleModalCenter" style="cursor: pointer;">Оставить заявку</p>
+            </li>
+            <li class="nav-item dropdown">
+              <a style="height: 0px;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Наши услуги
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="acc_services/index.html">Бухгалтерский учёт</a>
+                <a class="dropdown-item" href="check/index.html">Регистрационные услуги</a>
+                <a class="dropdown-item" href="nal/index.html">Налоговый учёт</a>
+                <a class="dropdown-item" href="personal/index.html">Персонал</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact/index.html">Контакты</a>
+            </li>           
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+            <h1>Согласие на обработку персональных данных</h1>
+            <p>Настоящим в соответствии с Федеральным законом № 152-ФЗ 
+                «О персональных данных» от 27.07.2006 года свободно, своей волей 
+                и в своем интересе выражаю свое безусловное согласие на обработку 
+                моих персональных данных , зарегистрированным в соответствии с 
+                законодательством РФ по адресу:
+            </p>
+            <p>(далее по тексту - Оператор).
+            </p>
+            <p>Персональные данные - любая информация, относящаяся к определенному или определяемому на основании такой 
+                информации физическому лицу.<br>Настоящее Согласие выдано мною на обработку следующих персональных данных:
+            </p>
+            <ul>
+                <li>Имя</li>
+                <li>Фамилия</li>
+                <li>Отчество</li>
+                <li>Телефон</li>
+                <li>E-mail</li>
+            </ul>
+            <p>
+                Согласие дано Оператору для совершения следующих действий с моими 
+                персональными данными с использованием средств автоматизации и/или 
+                без использования таких средств: сбор, систематизация, накопление, 
+                хранение, уточнение (обновление, изменение), использование, 
+                обезличивание, а также осуществление любых иных действий, 
+                предусмотренных действующим законодательством РФ как 
+                неавтоматизированными, так и автоматизированными способами.<br>
+                Данное согласие дается Оператору для обработки моих персональных данных в следующих целях:
+            </p>
+            <ul>
+                <li>Оказание мне услуг</li>
+                <li>Направление в мой адрес сообщений в части предоставляемых услуг</li>
+                <li>Направление в мой адрес информации на мои запросы</li>
+            </ul>
+            <p>
+                Настоящее согласие действует до момента его отзыва путем 
+                направления соответствующего уведомления на электронный 
+                адрес: quick-count@yandex.ru. В случае отзыва мною согласия 
+                на обработку персональных данных Оператор вправе продолжить 
+                обработку персональных данных без моего согласия при наличии 
+                оснований, указанных в пунктах 2 – 11 части 1 статьи 6, части 
+                2 статьи 10 и части 2 статьи 11 Федерального закона №152-ФЗ «О 
+                персональных данных» от 27.06.2006 г.
+            </p>
+        </div>
+      </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
